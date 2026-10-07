@@ -1,4 +1,4 @@
-# spc700-boot-rom
+# snes-spc700-boot-rom
 
 A free replacement for the boot ROM of the SPC700, the sound processor of the Super
 Nintendo Entertainment System: 64 bytes, mapped at `$FFC0-$FFFF`, that every game relies on
