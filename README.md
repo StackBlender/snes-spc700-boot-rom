@@ -2,8 +2,8 @@
 
 A free replacement for the boot ROM of the SPC700, the sound processor of the Super
 Nintendo Entertainment System: 64 bytes, mapped at `$FFC0-$FFFF`, that every game relies on
-to install its sound driver. MIT licensed, so emulators can ship it instead of the
-original, which is the console maker's code.
+to install its sound driver. Free software under the GPL, so emulators can ship it
+instead of the original, which is the console maker's code.
 
 - `spc700-boot-rom.bin`: the 64 bytes.
 - `spc700_boot_rom.h`: the same, as a C array.
@@ -56,4 +56,5 @@ the original. In ares, give the Super Famicom system pak an `ipl.rom` with these
 
 ## License
 
-MIT, see [LICENSE](LICENSE).
+GNU General Public License, version 3 or (at your option) any later version; see
+[LICENSE](LICENSE). For other terms, contact [StackBlender](https://stackblender.com).
